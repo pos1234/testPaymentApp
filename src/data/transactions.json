@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "type": "payment",
+    "amount": 200,
+    "name": "Top-up",
+    "description": "Card top-up via bank transfer",
+    "date": "2025-10-21T09:00:00.000Z",
+    "pending": true,
+    "authorizedUser": "Alex"
+  },
+  {
+    "id": 2,
+    "type": "Credit",
+    "amount": 85.49,
+    "name": "IKEA",
+    "description": "Home goods purchase",
+    "date": "2025-10-20T14:22:00.000Z"
+  },
+  {
+    "id": 3,
+    "type": "Credit",
+    "amount": 42.11,
+    "name": "Target",
+    "description": "Groceries and essentials",
+    "date": "2025-10-19T18:10:00.000Z",
+    "authorizedUser": "Jamie"
+  },
+  {
+    "id": 4,
+    "type": "Credit",
+    "amount": 12.99,
+    "name": "Starbucks",
+    "description": "Coffee run",
+    "date": "2025-10-18T08:35:00.000Z"
+  },
+  {
+    "id": 5,
+    "type": "Credit",
+    "amount": 129.0,
+    "name": "Amazon",
+    "description": "Electronics accessory",
+    "date": "2025-10-17T12:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "type": "payment",
+    "amount": 300,
+    "name": "Top-up",
+    "description": "Monthly auto top-up",
+    "date": "2025-10-16T09:00:00.000Z"
+  },
+  {
+    "id": 7,
+    "type": "Credit",
+    "amount": 58.75,
+    "name": "Walmart",
+    "description": "Groceries",
+    "date": "2025-10-10T16:40:00.000Z"
+  },
+  {
+    "id": 8,
+    "type": "Credit",
+    "amount": 220.99,
+    "name": "Best Buy",
+    "description": "Headphones purchase",
+    "date": "2025-09-25T11:30:00.000Z"
+  },
+  {
+    "id": 9,
+    "type": "Credit",
+    "amount": 15.99,
+    "name": "McDonald's",
+    "description": "Lunch",
+    "date": "2025-09-20T13:05:00.000Z"
+  },
+  {
+    "id": 10,
+    "type": "Credit",
+    "amount": 73.5,
+    "name": "Costco",
+    "description": "Bulk items",
+    "date": "2025-09-12T10:25:00.000Z"
+  },
+  {
+    "id": 11,
+    "type": "payment",
+    "amount": 150,
+    "name": "Top-up",
+    "description": "Manual top-up",
+    "date": "2025-08-30T09:00:00.000Z"
+  },
+  {
+    "id": 12,
+    "type": "Credit",
+    "amount": 9.99,
+    "name": "App Store",
+    "description": "Subscription",
+    "date": "2025-08-15T07:45:00.000Z"
+  }
+]

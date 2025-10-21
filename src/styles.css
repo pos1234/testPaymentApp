@@ -1,0 +1,38 @@
+:root{--bg:#f6f7fb;--fg:#0f172a;--muted:#64748b;--card:#ffffff;--border:#e2e8f0;--pos:#16a34a;--neg:#dc2626;--accent:#2563eb}
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.app-container{max-width:480px;margin:0 auto;padding:16px}
+.header{display:flex;align-items:center;gap:12px;margin:8px 0 16px}
+.header i{color:var(--accent)}
+.header h1{font-size:20px;margin:0}
+.cards{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;box-shadow:0 1px 2px rgba(0,0,0,0.04),0 4px 12px rgba(0,0,0,0.06)}
+.card-row{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.card-title{font-size:14px;color:var(--muted);margin-bottom:4px}
+.card-value{font-weight:600;font-size:18px}
+.card-number{font-weight:700;font-size:20px}
+.card-number.positive{color:var(--pos)}
+.card-number.negative{color:var(--neg)}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.divider{height:1px;background:var(--border);margin:10px 0}
+.muted{color:var(--muted)}
+.list-section{margin-top:16px}
+.section-title{font-size:16px;margin:0 0 8px 4px;color:#334155}
+.list{display:flex;flex-direction:column;gap:8px}
+.list-item{display:flex;align-items:flex-start;gap:12px;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:10px;text-decoration:none;color:inherit}
+.list-item:active{opacity:.8}
+.avatar{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;color:white;flex:0 0 auto}
+.item-content{flex:1}
+.row{display:flex;justify-content:space-between;gap:8px}
+.name{font-weight:600}
+.amount{font-weight:700}
+.amount.positive{color:var(--pos)}
+.amount.negative{color:var(--neg)}
+.small{font-size:12px}
+.badge{background:#e6a700;color:black;border-radius:6px;padding:2px 6px;margin-right:6px;font-weight:600}
+.auth{color:#1d4ed8}
+.back{color:var(--fg)}
+.kv{display:flex;flex-direction:column;gap:8px}
+.kv .key{display:inline-block;width:140px;color:var(--muted)}
+.kv .val{font-weight:600}
